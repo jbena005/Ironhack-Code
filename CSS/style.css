@@ -1,3 +1,51 @@
+* {
+	font-family: 'Merriweather', serif;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+}
+
+h1 {
+	color: darkkhaki;
+}
+
+h2 {
+	color: peachpuff;
+}
+
 h3 {
 	color: peru;
+}
+
+h4 {
+	color: purple;
+}
+
+h5 {
+	color: green;
+	font-size: 1.5rem;
+}
+
+h6 {
+	color: darkseagreen;
+	font-size: 1.25rem;
+	border: 2px solid red;
+}
+
+p {
+	color: orange;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
 }
