@@ -4,103 +4,113 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>1st lesson</title>
-		<link rel="stylesheet" href="CSS/normalize.css" />
-		<link rel="stylesheet" href="CSS/style.css" />
-
-		<script
-			src="https://kit.fontawesome.com/0309da22c7.js"
-			crossorigin="anonymous"
-		></script>
+		<title>1st HTML Class</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
 		<link
-			href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Poppins:400,700&display=swap"
+			href="https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald:400,700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/bff7ea3e36.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<!-- header starts -->
 		<header>
-			<div>Logo</div>
-			<div>Menu</div>
-			<div>Login/Signup</div>
+			<div class="col col-2">
+				<a href="#"
+					><img class="logoEvernote" src="images/blank.gif"
+				/></a>
+			</div>
+			<div class="col col-6">
+				<ul>
+					<li><a href="#">Plans</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Help & Learning</a></li>
+					<li><a href="#">About Us</a></li>
+				</ul>
+			</div>
+			<div class="col col-4">
+				<a href="#">Login</a>
+				or
+				<a href="#" class="button-outline">Signup</a>
+			</div>
 		</header>
-		<!-- Header ends  -->
+		<!-- header ends -->
 
 		<!-- main starts -->
-		<main>
-			<div>Headline & CTA</div>
-			<div>Image</div>
+		<main class="row">
+			<div class="col col-8">
+				<h1>Feel organized without the effort</h1>
+				<h6>write something here</h6>
+				<button>sign up for free</button>
+			</div>
+			<div class="col col-4">
+				<img src="images/undraw_social_user_lff0.png" height="200" />
+			</div>
 		</main>
-		<!-- Main ends  -->
+		<!-- main ends  -->
 
-		<!-- feature1 starts -->
-		<div>
-			<div>
-				<div class="imgRounded"></div>
-				<!-- <img
-					src="Images/andrey-zvyagintsev-9faXT5hxD5I-unsplash.jpg"
-					height="200"> -->
-				
+		<!-- feature 1 starts-->
+		<div class="bkColorGray bkSizeLarge">
+			<div class="txtCenter">
+				<!--  row -->
+				<!-- <div class="imgRounded"></div> -->
+				<img class="imgRounded" />
+				<!-- <img src="images/andrey-zvyagintsev-9faXT5hxD5I-unsplash.jpg" height="200"> -->
 				<h2>headline</h2>
 			</div>
-
-			<div>
-				<!--row-->
+			<div class="row">
+				<!--  row -->
 				<div class="col col-4">
-					<p>col 1
-							<p><a href="https://duck.com">Outside Maria</a></p>
-					</p>
-				</div>
-				<div class=" col col-4">
-					<p>col 2
-							<p><a href="https://duck.com">Phone</a></p>
-					</p>
+					<p>col 1</p>
+					<p><a href="https://duck.com">Outside Maria link</a></p>
 				</div>
 				<div class="col col-4">
-					<p>col 3
-							<p><a href="https://duck.com">Email</a></p>
-					</p>
+					<p>col 2</p>
+					<p><a href="tel:+19292818181">Phone</a></p>
+				</div>
+				<div class="col col-4">
+					<p>col 3</p>
+					<p><a href="mailto:juno@juno.pro">Email</a></p>
 				</div>
 			</div>
 		</div>
-		<!-- feature 1 ends -->
+		<!-- feature 1 ends  -->
 
-		<!-- feature2 starts -->
-		<div></div>
-		<div>Headline & CTA</div>
-		<div>Image</div>
-		<!-- feature 2 ends -->
+		<!-- feature 2 starts-->
+		<div class="bkSizeLarge row">
+			<div class="col col-8">
+				<h2>Remeber Everything</h2>
+				<p>A single place for your notes, ideas, and reminders.</p>
+				<p>Evernote basic <i class="fas fa-arrow-right"></i></p>
+			</div>
+			<div class="col col-4">
+				<img src="images/undraw_ice_cream_s2rh.png" height="200" />
+			</div>
+		</div>
+		<!-- feature 2 ends  -->
 
 		<!-- footer starts -->
 		<footer>
-			<div>Logo</div>
-			<!-- row -->
-			<div>
-				<!-- row -->
-				<div class="col col-2">col1</div>
-				<div class="col col-2">col2</div>
-				<div class="col col-2">col3</div>
-				<div class="col col-2">col4</div>
-				<div class="col col-2">col5</div>
-				<div class="col col-2">col6</div>
+			<div class="row">
+				<a href="#"
+					><img class="logoEvernote" src="images/blank.gif"
+				/></a>
+			</div>
+			<!--  row -->
+			<div class="row">
+				<!--  row -->
+				<div class="col col-2">col 1</div>
+				<div class="col col-2">col 2</div>
+				<div class="col col-2">col 3</div>
+				<div class="col col-2">col 4</div>
+				<div class="col col-2">col 5</div>
+				<div class="col col-2">col 6</div>
 			</div>
 		</footer>
 		<!-- footer ends -->
-
-		<h1>Heading 1</h1>
-		<h2>Heading 2</h2>
-		<h3>Heading 3</h3>
-		<h4>Heading 4</h4>
-		<h5>Heading 5</h5>
-		<h6>Heading 6</h6>
-		<p>Paragraph</p>
-		<i class=" icon-space far fa-address-book fa-4x"></i>
-
-		<p class="Left">
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid
-			debitis, sit sint perspiciatis veritatis fugiat eaque unde
-			consequuntur enim adipisci et blanditiis repudiandae dolorem
-			incidunt ea cumque in deleniti quaerat?
-		</p>
 	</body>
 </html>

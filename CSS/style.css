@@ -1,123 +1,182 @@
 * {
-	font-family: 'Merriweather', serif;
+	font-family: 'Oswald', sans-serif;
 }
 
-div {
-	border: 1px lightgray solid;
-}
-
-h1,
-h2,
-h3 {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
-}
-
-h4,
-h5,
-h6 {
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
-}
-
+/* heading  */
 h1 {
 	color: darkkhaki;
+	font-family: 'Abril Fatface', cursive;
 }
 
 h2 {
-	color: peachpuff;
+	color: chocolate;
+	font-family: 'Abril Fatface', cursive;
 }
 
 h3 {
 	color: peru;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
 }
 
 h4 {
-	color: purple;
+	color: lime;
+	font-family: 'Oswald', sans-serif;
 }
 
 h5 {
-	color: green;
-	font-size: 1.5rem;
+	color: olive;
 }
 
 h6 {
-	color: darkseagreen;
-	font-size: 1.25rem;
-	border: 2px solid red;
+	color: wheat;
+	font-size: 1.5em;
+	border: 1px red solid;
+	margin: 0;
 }
 
 p {
-	color: blue;
-	font-size: 1rem;
-	margin: 0;
-	padding: 0;
-	line-height: 2rem;
+	color: aqua;
+	font-size: 1em;
+	line-height: 2em;
 }
 
-a {
-	padding: 10px 50px;
-	border: 30px;
-	margin: 30px;
+header {
+	background-color: white;
+	justify-content: space-between;
+	display: flex;
+}
+
+main {
+	/* height: 530pt; */
+	background-color: #05a72c;
+	justify-content: space-around;
+	padding: 24px;
+	/* background-color: rgba(5, 167, 44, 0.4); */
+}
+div {
+	/* border: 1px red dotted; */
+}
+
+footer {
+	/* height: 850pt; */
+	background-color: #eee;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: inline;
+}
+
+li a {
+	display: inline-block;
+	padding: 4px 8px;
+}
+
+.headtest {
+	color: black;
+}
+
+.icon-red {
 	color: red;
 }
 
-.icon-space {
-	margin: 1rem 1rem;
+.bkColorGray {
+	background-color: #f7f7f7;
 }
-
-.Left {
-	width: 400px;
-	height: 19px;
-	font-family: Montserrat;
-	font-size: 16px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: 0.18px;
-	color: #514a4a;
+.bkSizeLarge {
+	/* height: 750pt; */
+	padding: 24px;
 }
 
 .imgRounded {
-	margin-top: 25px;
-	border-radius: 100%;
-	background-image: url('../Images/andrey-zvyagintsev-9faXT5hxD5I-unsplash.jpg');
+	border-radius: 50%;
+	background-image: url('../images/andrey-zvyagintsev-9faXT5hxD5I-unsplash.jpg');
 	width: 100px;
 	height: 100px;
 	background-color: azure;
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 	border: 0;
+	display: block;
+	margin: 0 auto;
+
+	/* margin-left: auto;
+     margin-right: auto;
+     width: 30%; */
 }
 
-header {
-	background-color: antiquewhite;
+.logoEvernote {
+	background-image: url('../images/evernote_logo.png');
+	width: 200px;
+	height: 100px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+button {
+}
+
+.button-outline {
+	display: inline-block;
+	height: 40px;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+	border: 2px solid green;
+	padding: 0 10;
+}
+
+a {
+	/* padding: 10px 50px;
+	/* padding-top: 50px: */
+	/* margin: 30px; */
+	/* border: 30px; */
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+}
+.row {
+	display: flex;
 }
 
 .col {
-	float: left;
-	padding: 15px;
-	border: 1px solid green;
+	/* float: left; */
+	/* border: 1px solid green; */
+	/* width:30%; */
+	padding: 16px;
 }
 
 .col-1 {
 	width: 8.33%;
 }
-/* .col-2 {
-	width: 16.66%;
-} */
+/* .col-2 {width: 16.66%;} */
 .col-2 {
-	width: 14%;
+	width: calc(100% / 6);
 }
 .col-3 {
 	width: 25%;
 }
-/* .col-4 {
-	width: 3.33%;
-} */
+/* .col-4 {width: 33.33%;} */
 .col-4 {
-	width: 30%;
+	width: calc(100% / 3);
 }
 .col-5 {
 	width: 41.66%;
